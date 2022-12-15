@@ -5,13 +5,11 @@
  *
  * Return: 0-9 followed by new line
  */
-int print_numbers(void)
+void print_numbers(void)
 {
-	char c;
+	int i;
 
-	for (c = '0' ; c <= '9' ; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
+for (i = 0 ; i <= 9 ; i++)
+_putchar(c);
+_putchar('\n');
 }
